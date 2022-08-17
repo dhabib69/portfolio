@@ -1,0 +1,68 @@
+.container.contact__container {
+    width: 58%;
+
+    gap: 12%;
+    background: transparent;
+}
+
+.contact__options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.contact__option {
+    background-color: rgb(11, 3, 34);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: all 400ms ease;
+}
+
+
+.contact__option-icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact__option a {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+ /*======================FORM===========================*/
+
+ form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+ }
+ input, textarea{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid white;
+    background: transparent;
+    resize: none;
+    color: white;
+    font-size: 1.5rem;
+ }
+
+ /*============================ Buat Medium Device ====================================*/
+
+@media screen and (max-width: 1024px) {
+    .container.contact__container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+ }
+ 
+ /*============================ Buat Small Device ====================================*/
+ 
+ @media screen and (max-width: 600px) {
+    .container.contact__container{
+        width: var(--small-container);
+    }
+ }

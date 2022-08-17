@@ -1,0 +1,50 @@
+.projects__container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 2.5rem;
+}
+.tombol_PKM  {
+    display: flex;
+    gap : 0.7rem;
+}
+.portfolio__item{
+    background: rgb(11, 3, 34) ;
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: all 400ms ease;
+}
+
+.portfolio__item:hover{
+    border-color: white;
+}
+
+.portfolio__item-image{
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.portfolio__item h3 {
+    margin: 1.2rem 0 2rem;
+    
+}
+
+/*============================ Buat Medium Device ====================================*/
+
+@media screen and (max-width: 1024px) {
+    .projects__container{
+     grid-template-columns: 1fr;
+     gap:1.2rem;
+    }
+ }
+ 
+ /*============================ Buat Small Device ====================================*/
+ 
+ @media screen and (max-width: 600px) {
+   .projects__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+   }
+ }
+ 

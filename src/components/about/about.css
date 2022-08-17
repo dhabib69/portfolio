@@ -1,0 +1,118 @@
+.about__container {
+    text-align: center;
+    display: grid; /*konten didalam container didisplay perkolom*/
+    grid-template-columns: 35% 60%; /*perbandingan kolom kanan dan kiri*/
+    gap: 15%; /*jarak per kolom*/
+
+}
+
+.about__me{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius : 2rem;
+    background: linear-gradient(
+        60deg,
+        transparent,
+        var(--color-primary),
+        transparent
+    );
+    display: grid;
+    place-items: center;
+}
+
+.about__me-image {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: all 400ms ease;
+}
+
+
+.about__me-image:hover {
+    transform: rotate(0);
+}
+
+.about__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+}
+
+.about__card{
+    background: rgb(11, 3, 34);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 0.8rem;
+    text-align: center;
+    transition: all 400ms ease;
+}
+
+.about__card:hover{
+    background: transparent;
+    border-color: rgb(255, 255, 255);
+    cursor: default;
+}
+
+.about__icon{
+    background: none;
+    color: rgb(255, 254, 254);
+    font-size: 2rem;
+    margin-top: 1rem ;
+}
+
+.about__card h5 {
+    font-size: 1rem;
+}
+
+.about__card small {
+    font-size: 0.5;
+    color: rgb(218, 218, 218);
+}
+
+.about__content p{
+    margin: 2rem 0 2.6rem;
+    color:rgb(187, 176, 176)
+}
+.experience{
+    background: none;
+    padding : 0.1rem;
+    color: rgb(102, 102, 102);
+    text-align: left;
+}
+
+.project {
+    background: none;
+    padding : 0.1rem;
+    color: rgb(102, 102, 102);
+    text-align: left;
+}
+
+.p {
+    margin: 2rem 0 2.6rem;
+    color:rgb(255, 255, 255);
+    text-align:justify;
+    font-size: 1.1rem;
+}
+
+/*============================ Buat Medium Device ====================================*/
+
+@media screen and (max-width: 1024px) {
+    .about__container{
+        grid-template-columns: 1fr;
+        gap:0;
+    }
+.about__me{
+    width: 50%;
+    margin: 2rem auto 4rem;
+}
+.about__content p{
+    margin: 1rem 0 1.5rem;
+}
+}
+
+/*============================ Buat Small Device ====================================*/
+
+@media screen and (max-width: 600px) {
+    
+}
+

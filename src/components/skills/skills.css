@@ -1,0 +1,60 @@
+.skills__container{
+    display: grid; /*dibagi dalam grid */
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+}
+
+.skills__container > div /*artinya divisi yang ada didalam container */
+{
+    background: rgb(11, 3, 34);
+    padding: 2.4rem 5rem;
+    border-radius: 1rem;
+    border: 0.5px solid transparent;
+    transition: all 400ms ease;
+}
+.skills__container > div:hover
+{
+    background: transparent;
+    border-color: white;
+    cursor: default;
+}
+
+.skills__container > div h2 /*divisi yang ada h3 didalamnya*/
+{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: antiquewhite;
+}
+
+.skills__content {
+    display: grid; /*dibagi dalam grid */
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 1rem;
+}
+/*============================ Buat Medium Device ====================================*/
+
+@media screen and (max-width: 1024px) {
+   .skills__container{
+    grid-template-columns: 1fr;
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+   }
+   .skills__content{
+    padding: 1rem;
+   }
+}
+
+/*============================ Buat Small Device ====================================*/
+
+@media screen and (max-width: 600px) {
+  .skills__container{
+    gap: 1rem;
+  }
+  .skills__container > div{
+    width: 95%;
+    padding: 2rem 1rem;
+  }
+}
+
