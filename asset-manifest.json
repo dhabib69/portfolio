@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.d5894a1c.css",
+    "main.js": "/portfolio/static/js/main.ce899f31.js",
+    "static/media/Proposal - Pemonitor Over Heating pada Load Bank Penampil Pengukuran Besaran Listrik Terintegrasi ke Android (1).pdf": "/portfolio/static/media/Proposal - Pemonitor Over Heating pada Load Bank Penampil Pengukuran Besaran Listrik Terintegrasi ke Android (1).047551561674ce9e7460.pdf",
+    "static/media/Blue_Print.pdf": "/portfolio/static/media/Blue_Print.e0b264f1b095f612d916.pdf",
+    "static/media/SNIV22_HabibKhairul2.pdf": "/portfolio/static/media/SNIV22_HabibKhairul2.455ac66b6e538fbc19aa.pdf",
+    "static/media/awaksss.png": "/portfolio/static/media/awaksss.6ee9a2f0c28884adde02.png",
+    "static/media/SNIV22_Habib_Khairul.pdf": "/portfolio/static/media/SNIV22_Habib_Khairul.8e4ac1a991fbde73edd7.pdf",
+    "static/media/GN7.jpeg": "/portfolio/static/media/GN7.148732263e26643ac680.jpeg",
+    "static/media/CV_Habib_Khairul recent.pdf": "/portfolio/static/media/CV_Habib_Khairul recent.a432913b6b5bbd4b824f.pdf",
+    "static/media/Picture2.png": "/portfolio/static/media/Picture2.0cff0dd6df1af1d79319.png",
+    "static/media/Picture1.png": "/portfolio/static/media/Picture1.caa308e70a78edfbf845.png",
+    "static/media/Picture3.png": "/portfolio/static/media/Picture3.4f963d58f0f11292102b.png",
+    "static/media/Picture4.png": "/portfolio/static/media/Picture4.f5ee6946d3be3cbedff2.png",
+    "static/media/GRBL.png": "/portfolio/static/media/GRBL.81bdd783131ddc8a3a6b.png",
+    "index.html": "/portfolio/index.html",
+    "main.d5894a1c.css.map": "/portfolio/static/css/main.d5894a1c.css.map",
+    "main.ce899f31.js.map": "/portfolio/static/js/main.ce899f31.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5894a1c.css",
+    "static/js/main.ce899f31.js"
+  ]
+}
